@@ -66,7 +66,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(requestLogger)
 
 // register route files
-app.use(exampleRoutes)
+// app.use(exampleRoutes)
 app.use(userRoutes)
 app.use(catRoutes)
 
